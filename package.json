@@ -1,0 +1,20 @@
+{
+  "name": "console-log-my-food",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server-start-global": "json-server --watch src/db.json --port 3001",
+    "server-start": "node ./server.js",
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "caf": "^9.0.0",
+    "json-server": "^0.16.1"
+  }
+}
